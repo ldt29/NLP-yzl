@@ -1,0 +1,116 @@
+\documentclass{article}
+
+
+% Default settings for changing margins.
+% If possible, use package <geometry> instead.
+\topmargin = -1.2cm     % Top margin.
+\evensidemargin = 0cm   % Left margin on even pages.
+\oddsidemargin = 0cm    % Left margin on odd pages.
+\textwidth = 16.5cm     % Width of the main body.
+% \textheight = 24.5cm    % Height of the main body.
+\textheight = 22.5cm
+\headsep = 0.6cm        % Blank under the header line.
+\headheight = 0.5cm     % The height of the header.
+% \newcommand{\problem}[1]{{\vspace{5pt}\Large\noindent{\textbf{Problem #1:}\vspace{5pt} \\}}}
+% \usepackage{titlesec}
+% \titleformat*{\section}{\LARGE\textbf}
+% \renewcommand{\section}{{\noindent\bf\LARGE}}
+% \newcommand{\ack}{{\noindent{\textbf{Acknowledgements: }}}}
+% ****************************************
+
+
+% Packages (with Necessary Parameters)
+% ========================================
+% General Typesetting
+\usepackage{setspace}            % Line spacing.
+\usepackage{color}
+\usepackage[dvipsnames,table]{xcolor}  % Color settings.
+\usepackage{soul}                % Special text formats.
+% \usepackage{ulem}                % Controlling underlines.
+\usepackage{embrac}              % Controlling italicized brackets.
+\usepackage{indentfirst}         % Recommended only in Chinese articles.
+\usepackage{anyfontsize}         % Allow arbitrary font-size setting.
+% \usepackage{CTEX}
+% Listing Environment
+% New settings can be added for other layers.
+% Package <paralist> must be imported before <enumitem> to avoid collision.
+\usepackage{paralist}     % Inline listing environment.
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\usepackage{enumitem}     % Customize enumeration environment.
+\setenumerate[1]{leftmargin=2em, itemsep=0.2pt, partopsep=0.2pt, parsep=\parskip, topsep=0.2pt}
+\setenumerate[2]{leftmargin=2em, itemsep=0.2pt, partopsep=0.2pt, parsep=\parskip, topsep=0.2pt}
+\setitemize[1]{leftmargin=2em, itemsep=0.2pt, partopsep=0.2pt, parsep=\parskip, topsep=0.2pt}
+\setitemize[2]{leftmargin=2em, itemsep=0.2pt, partopsep=0.2pt, parsep=\parskip, topsep=0.2pt}
+
+
+
+% Math Formulae Typesetting
+\usepackage{amsmath,amsfonts,amsthm,amssymb}  % Input math formulae.
+\usepackage{bm}                               % Insert bold-italic math formulae.
+\usepackage{extarrows}                        % Insert long arrows with captions.
+\usepackage{cases}                            % Insert big braces.
+\usepackage{mathrsfs}                         % Script-style capital letters with <\mathscr>.
+\usepackage{esint}                            % Better display of integrals with <oiint> etc.
+\usepackage{braket}                           % Insert Dirac's "Bra-Ket" notaion.
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot[L,C]{}
+\fancyfoot[R]{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ****************************************
+
+
+% Document Specification Information
+% ========================================
+% Basic Information
+% \newcommand{\Class}{Algorithm Design}
+% \newcommand{\Title}{Problem Solving Session}
+
+% Title
+\title{\textmd{\bf Natural Language Processing, Assignment 1}}
+% \date{}
+\author{IIIS student name, student ID}
+
+% ****************************************
+
+
+
+\begin{document}
+\maketitle\thispagestyle{empty}
+
+\section*{Disclosure}
+
+Please disclose the following cases if any:
+\begin{enumerate}
+    \item If you received any help whatsoever from anyone in solving this assignment, give full details.
+    \item If you gave any help whatsoever to anyone in solving this assignment, give full details.
+    \item If you found or came across code that implements any part of this assignment, give full details.
+\end{enumerate}
+\textbf{Warning:} You should do your own work. Copying solutions (text or code) from any external sources is strictly prohibited.
+
+
+% \section{Problem 1
+\section*{Problem 1}
+Please write your answer here.
+
+\section*{Problem 2}
+
+\subsection*{1.}
+The answer of subproblem 1.
+
+\subsection*{2.}
+
+\subsubsection*{(a)}
+The answer of subproblem 2 (a).
+
+\subsubsection*{(b)}
+The answer of subproblem 2 (b).
+
+
+
+\end{document}
